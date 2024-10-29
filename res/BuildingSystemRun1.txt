@@ -1,0 +1,156 @@
+-------------------------------------------------------------------------
+Welcome to the Elevator System!
+This system will simulate the operation of an elevator system.
+The system will be initialized with the following parameters:
+Number of floors: 6
+Number of elevators: 1
+Number of people: 3
+The system will then be run and the results will be displayed.
+-------------------------------------------------------------------------
+Building constructor called
+numberOfFloors: 6
+numberOfElevators: 1
+elevatorCapacity: 3
+
+Yet to be built.
+-------------------------------------------------------------------------
+(1) Building created
+Elevator reports: [Out of Service[Floor 0]] Up requests: [] Down requests: [] System status: Out Of Service
+-------------------------------------------------------------------------
+(2) Start the elevator system
+Elevator reports: [Waiting[Floor 0, Time 5]] Up requests: [] Down requests: [] System status: Running
+-------------------------------------------------------------------------
+(3) Step the elevator system 1 time
+Elevator reports: [Waiting[Floor 0, Time 4]] Up requests: [] Down requests: [] System status: Running
+-------------------------------------------------------------------------
+(4) 3 Requests added: 0->1, 4->2, 3->1
+Elevator reports: [Waiting[Floor 0, Time 4]] Up requests: [0->1] Down requests: [4->2, 3->1] System status: Running
+-------------------------------------------------------------------------
+(5) Step the building 20 times
+
+Elevator system stepped 1 times
+Elevator reports: [[0|^|O 3]< --  1 -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 2 times
+Elevator reports: [[0|^|O 2]< --  1 -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 3 times
+Elevator reports: [[0|^|O 1]< --  1 -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 4 times
+Elevator reports: [[0|^|C  ]< --  1 -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 5 times
+Elevator reports: [[1|^|C  ]< --  1 -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 6 times
+Elevator reports: [[1|^|O 3]< -- -- -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 7 times
+Elevator reports: [[1|^|O 2]< -- -- -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 8 times
+Elevator reports: [[1|^|O 1]< -- -- -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 9 times
+Elevator reports: [[1|^|C  ]< -- -- -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 10 times
+Elevator reports: [[2|^|C  ]< -- -- -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 11 times
+Elevator reports: [[3|^|C  ]< -- -- -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 12 times
+Elevator reports: [[4|^|C  ]< -- -- -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 13 times
+Elevator reports: [[5|^|C  ]< -- -- -- -- -- -->] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 14 times
+Elevator reports: [Waiting[Floor 5, Time 5]] Up requests: [] Down requests: [4->2, 3->1] System status: Running
+
+Elevator system stepped 15 times
+Elevator reports: [[4|v|C  ]< --  1  2  3  4 -->] Up requests: [] Down requests: [] System status: Running
+
+Elevator system stepped 16 times
+Elevator reports: [[4|v|O 3]< --  1  2  3 -- -->] Up requests: [] Down requests: [] System status: Running
+
+Elevator system stepped 17 times
+Elevator reports: [[4|v|O 2]< --  1  2  3 -- -->] Up requests: [] Down requests: [] System status: Running
+
+Elevator system stepped 18 times
+Elevator reports: [[4|v|O 1]< --  1  2  3 -- -->] Up requests: [] Down requests: [] System status: Running
+
+Elevator system stepped 19 times
+Elevator reports: [[4|v|C  ]< --  1  2  3 -- -->] Up requests: [] Down requests: [] System status: Running
+
+Elevator system stepped 20 times
+Elevator reports: [[3|v|C  ]< --  1  2  3 -- -->] Up requests: [] Down requests: [] System status: Running
+-------------------------------------------------------------------------
+(6) Stop the elevator system
+Elevator reports: [[3|v|C  ]< -- -- -- -- -- -->] Up requests: [] Down requests: [] System status: Stopping
+-------------------------------------------------------------------------
+(7) Step the building 5 times
+
+Elevator system stepped 1 times
+Elevator reports: [[2|v|C  ]< -- -- -- -- -- -->] Up requests: [] Down requests: [] System status: Stopping
+
+Elevator system stepped 2 times
+Elevator reports: [[1|v|C  ]< -- -- -- -- -- -->] Up requests: [] Down requests: [] System status: Stopping
+
+Elevator system stepped 3 times
+Elevator reports: [Out of Service[Floor 0]] Up requests: [] Down requests: [] System status: Stopping
+
+Elevator system stepped 4 times
+Elevator reports: [Out of Service[Floor 0]] Up requests: [] Down requests: [] System status: Out Of Service
+
+Elevator system stepped 5 times
+Elevator reports: [Out of Service[Floor 0]] Up requests: [] Down requests: [] System status: Out Of Service
+
+Now the system is out of service.
+-------------------------------------------------------------------------
+(8) Start the elevator system again
+Elevator reports: [Waiting[Floor 0, Time 5]] Up requests: [] Down requests: [] System status: Running
+-------------------------------------------------------------------------
+(9) 2 requests added 2->3, 4->1
+Elevator reports: [Waiting[Floor 0, Time 5]] Up requests: [2->3] Down requests: [4->1] System status: Running
+-------------------------------------------------------------------------
+(10) Step the building 5 times
+
+Elevator system stepped 1 times
+Elevator reports: [[1|^|C  ]< -- --  2  3 -- -->] Up requests: [] Down requests: [4->1] System status: Running
+
+Elevator system stepped 2 times
+Elevator reports: [[2|^|C  ]< -- --  2  3 -- -->] Up requests: [] Down requests: [4->1] System status: Running
+
+Elevator system stepped 3 times
+Elevator reports: [[2|^|O 3]< -- -- --  3 -- -->] Up requests: [] Down requests: [4->1] System status: Running
+
+Elevator system stepped 4 times
+Elevator reports: [[2|^|O 2]< -- -- --  3 -- -->] Up requests: [] Down requests: [4->1] System status: Running
+
+Elevator system stepped 5 times
+Elevator reports: [[2|^|O 1]< -- -- --  3 -- -->] Up requests: [] Down requests: [4->1] System status: Running
+-------------------------------------------------------------------------
+(11) Stop the elevator system again
+Elevator reports: [[2|v|O 1]< -- -- -- -- -- -->] Up requests: [] Down requests: [] System status: Stopping
+-------------------------------------------------------------------------
+(12) Step the building 4 times
+
+Elevator system stepped 1 times
+Elevator reports: [[2|v|C  ]< -- -- -- -- -- -->] Up requests: [] Down requests: [] System status: Stopping
+
+Elevator system stepped 2 times
+Elevator reports: [[1|v|C  ]< -- -- -- -- -- -->] Up requests: [] Down requests: [] System status: Stopping
+
+Elevator system stepped 3 times
+Elevator reports: [Out of Service[Floor 0]] Up requests: [] Down requests: [] System status: Stopping
+
+Elevator system stepped 4 times
+Elevator reports: [Out of Service[Floor 0]] Up requests: [] Down requests: [] System status: Out Of Service
+
+Now the system is out of service.
+-------------------------------------------------------------------------
+
+Process finished with exit code 0
